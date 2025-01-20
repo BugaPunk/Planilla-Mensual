@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginVertical="3dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:checkable="true"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/txtNA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empleado"
+                    android:textAppearance="?attr/textAppearanceTitleLarge"
+                    android:fontFamily="@font/ubuntu_light"
+                    android:textColor="@color/teal_700"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txtNombresYApellidos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nombres"
+                    android:paddingStart="5dp"
+                    android:textAppearance="?attr/textAppearanceTitleLarge"
+                    android:fontFamily="@font/ubuntu_light"
+                    android:textColor="@color/teal_700"
+                    tools:ignore="RtlSymmetry" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+        <TextView
+            android:id="@+id/txtHB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:text="@string/haberbasico"
+            android:fontFamily="@font/ubuntu_light"
+            android:paddingEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/txtHaberB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:text="@string/haber_basico"
+            android:fontFamily="@font/ubuntu_light"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+        <TextView
+            android:id="@+id/txtVH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:text="@string/ventashardware"
+            android:textStyle="bold"
+            android:fontFamily="@font/ubuntu_light"
+            android:paddingEnd="5dp"
+            android:layout_marginTop="5dp"
+            tools:ignore="RtlSymmetry" />
+
+
+        <TextView
+            android:id="@+id/txtVHardware"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:text="@string/ventas_hardware"
+            android:fontFamily="@font/ubuntu_light"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+        <TextView
+            android:id="@+id/txtVS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:text="@string/ventassoftware"
+            android:fontFamily="@font/ubuntu_light"
+            android:textStyle="bold"
+            android:paddingEnd="5dp"
+            android:layout_marginTop="5dp"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:id="@+id/txtVSoftware"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:text="@string/ventas_software"
+            android:fontFamily="@font/ubuntu_light"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

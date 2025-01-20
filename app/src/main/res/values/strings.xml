@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Planilla Mensual</string>
+    <string name="fab_content_desc">Agregar</string>
+    <string name="haber_basico">Haber Básico</string>
+    <string name="agregar_empleado">Agregar Empleado</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="ventas_software">Ventas Software</string>
+    <string name="ventas_hardware">Ventas Hardware</string>
+    <string name="guardar">Guardar</string>
+    <string name="empleados">Empleados</string>
+    <string name="empleado">Empleado:</string>
+    <string name="haberbasico">Haber Básico:</string>
+    <string name="ventashardware">Ventas Hardware:</string>
+    <string name="ventassoftware">Ventas Software:</string>
+</resources>
