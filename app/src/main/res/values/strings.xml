@@ -13,4 +13,8 @@
     <string name="haberbasico">Haber Básico:</string>
     <string name="ventashardware">Ventas Hardware:</string>
     <string name="ventassoftware">Ventas Software:</string>
+    <string name="liquido_pagable">Liquido Pagable: </string>
+    <string name="editar">Editar</string>
+    <string name="editar_empleado">Editar Empleado</string>
+    <string name="eliminar">Eliminar</string>
 </resources>

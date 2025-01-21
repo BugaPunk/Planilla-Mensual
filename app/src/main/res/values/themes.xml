@@ -16,9 +16,10 @@
         <item name="colorOnPrimary">@color/teal_100</item>
         <item name="colorOnSecondary">@color/teal_50</item>
         <item name="colorOnBackground">@color/teal_200</item>
-        <item name="colorOnSurface">@color/teal_300</item>
+        <item name="colorOnSurface">@color/teal_950</item>
 
         <item name="android:statusBarColor">@color/teal_600</item>
+        <item name="colorSurfaceContainer">@color/teal_100</item>
     </style>
 
     <style name="Theme.PlanillaMensual" parent="Base.Theme.PlanillaMensual" />

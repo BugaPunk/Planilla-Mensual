@@ -25,7 +25,24 @@ class AddEmpleadoActivity : AppCompatActivity() {
                 binding.txtInputVSoftware.text.toString().toDouble(),
                 binding.txtInputVHardware.text.toString().toDouble()
             )
-            db.insertEmpleado(empleado)
+
+            /*val totalVentas = empleado.totalVentas()
+            val comisionSoftware = empleado.comisionSoftware()
+            val comisionHardware = empleado.comisionHardware()
+            val comisionPremio = empleado.comisionPremio()
+            val totalComision = empleado.totalComision()
+            val liquidoPagable = empleado.liquidoPagable()*/
+
+            db.insertEmpleado(
+                empleado,
+                empleado.totalVentas(),
+                empleado.comisionSoftware(),
+                empleado.comisionHardware(),
+                empleado.comisionPremio(),
+                empleado.totalComision(),
+                empleado.liquidoPagable()
+            )
+
             finish()
             Toast.makeText(this, "Empleado guardado", Toast.LENGTH_SHORT).show()
         }
